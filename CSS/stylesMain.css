@@ -195,12 +195,12 @@ textarea{
 
 .outerBox{
   position: relative;
-  margin: 2.5vh 5vw 2.5vh 5vw;
+  margin: 0 5vw;
   width: 90vw;
   min-height: 90vh;
   /*background-color: green;*/
   /*text-align: center;*/
-  padding: 2.5vh 0;
+  padding: 5vh 0;
 }
 
 #first-box{
