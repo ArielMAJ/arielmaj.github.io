@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=WindSong&family=Playfair+Display&family=Waterfall&display=swap');
 
+:root {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #041C32;
   color: #D8E3E7;
