@@ -38,45 +38,6 @@ p {
   font-size: 6.2vmin;
 }
 
-#first-box{
-  position: relative;
-  padding: 0;
-  text-align: left;
-  top: calc(50vh - 37.875vmin);
-  left: calc(50vw - 45vmin);
-  width: 90vmin;
-  height: 75.75vmin;
-  background-color: steelblue;
-  border-radius: 0 40%;
-}
-#top{
-  background-color: lightskyblue;
-  height: 18.75vmin;
-  width: 43.75vmin;
-  border: solid 1.25vmin;
-  padding: 2.5vmin;
-  padding-top: 0;
-  margin-left: 0;
-}
-
-#middle{
-  background-color: royalblue;
-  height: 22.5vmin;
-  width: 36.75vmin;
-  border: solid 1vmin;
-  margin-left: 51.25vmin;
-  border-top-right-radius: 20%;
-}
-
-#bottom{
-  background-color: deepskyblue;
-  height: 25vmin;
-  width: 25vmin;
-  border: solid 1.25vmin;
-  margin-left: 23.75vmin;
-  border-bottom-left-radius: 30%;
-}
-
 .outer{
   position: relative;
   /*display: flex;*/
@@ -88,7 +49,7 @@ p {
   background-color: #80ABCD;
   z-index: -10;
   width: 100vw;
-  height: 95vh;
+  height: 100vh;
   /*align-items: center;*/
 }
 
