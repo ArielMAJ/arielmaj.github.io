@@ -123,7 +123,7 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: 'Spoken Languages',
     skills: [
       {
         name: 'English (Fluent)',
@@ -134,7 +134,7 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Frontend Development',
     skills: [
       {
         name: 'React (JS/TS)',
@@ -145,16 +145,16 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Backend Development',
     skills: [
       {
         name: 'Node (JS/TS)',
       },
       {
-        name: 'Python (e.g. FastAPI, Flask)',
+        name: 'Python (FastAPI, Flask)',
       },
       {
-        name: 'SQL/NoSQL/PostgreSQL/SQLite3',
+        name: 'SQL / NoSQL / Postgre / SQLite3',
       },
       {
         name: 'Postman / Insomnia / Swagger',
@@ -162,7 +162,7 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Desktop development',
+    name: 'Desktop Development',
     skills: [
       {
         name: 'Python (Customtkinter)',
@@ -182,10 +182,10 @@ export const skills: SkillGroup[] = [
         name: 'Pre-trained models & transfer-learning',
       },
       {
-        name: 'Object/Face Detection & Classification/Recognition',
+        name: 'Object / Face Detection & Classification / Recognition',
       },
       {
-        name: 'Naive Bayes, KNN, Decision Trees, DL/CNN, etc.',
+        name: 'Naive Bayes, KNN, Decision Trees, DL / CNN, etc.',
       },
     ],
   },
@@ -210,7 +210,7 @@ export const skills: SkillGroup[] = [
         name: 'Algorithms and Data Structures (C/C++)',
       },
       {
-        name: 'Docker/Docker compose',
+        name: 'Docker / Docker compose',
       },
       {
         name: 'Github Actions (eg. deployment automation)',
