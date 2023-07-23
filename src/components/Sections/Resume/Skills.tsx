@@ -1,15 +1,13 @@
 import {FC, memo, PropsWithChildren} from 'react';
-// import {FC, memo, PropsWithChildren, useMemo} from 'react';
+import ReactCardFlipper from 'react-card-flipper';
 
 import {Skill as SkillType, SkillGroup as SkillGroupType} from '../../../data/dataDef';
-
-import ReactCardFlipper from 'react-card-flipper';
 
 export const SkillGroup: FC<PropsWithChildren<{skillGroup: SkillGroupType}>> = memo(({skillGroup}) => {
   const {name, skills} = skillGroup;
   return (
     // <ReactCardFlipper className="ReactFlipCard flex flex-col" behavior="click" levitate={true}>
-    <ReactCardFlipper className="ReactFlipCard flex flex-col" behavior="hover">
+    <ReactCardFlipper behavior="hover" className="ReactFlipCard flex flex-col">
       <div className="ReactFlipCard ReactFlipCard__Front center flex shadow">
         <span className="text-center text-lg font-bold">{name}</span>
       </div>
