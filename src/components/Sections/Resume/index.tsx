@@ -28,7 +28,7 @@ const Resume: FC = memo(() => {
             <b>personal projects</b> in my free time in which I have applied each and every one of the technologies
             listed below.
           </p>
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 center">
+          <div className="center grid grid-cols-1 gap-6 md:grid-cols-2">
             {skills.map((skillgroup, index) => (
               <SkillGroup key={`${skillgroup.name}-${index}`} skillGroup={skillgroup} />
             ))}
