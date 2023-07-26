@@ -123,7 +123,7 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: 'Spoken Languages',
     skills: [
       {
         name: 'English (Fluent)',
@@ -134,44 +134,72 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Frontend Development',
     skills: [
       {
-        name: 'React',
+        name: 'React (JS/TS)',
       },
       {
-        name: 'Vue',
-      },
-      {
-        name: 'Typescript',
+        name: 'Vue (JS/TS)',
       },
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Backend Development',
     skills: [
       {
-        name: 'Node.js',
+        name: 'Node (JS/TS)',
       },
       {
-        name: 'Python (e.g. FastAPI, Flask)',
+        name: 'Python (FastAPI, Flask)',
       },
       {
-        name: 'TypeScript',
+        name: 'SQL / NoSQL / Postgre / SQLite3',
       },
       {
-        name: 'SQL/NoSQL/PostgreSQL/SQLite3',
+        name: 'Postman / Insomnia / Swagger',
       },
     ],
   },
   {
-    name: 'Desktop development',
+    name: 'Desktop Development',
     skills: [
       {
         name: 'Python (Customtkinter)',
       },
       {
-        name: 'C# & Windows Forms',
+        name: 'C# (Windows Forms)',
+      },
+    ],
+  },
+  {
+    name: 'Machine Learning (Python)',
+    skills: [
+      {
+        name: 'Tensorflow, Keras & OpenCV',
+      },
+      {
+        name: 'Pre-trained models & transfer-learning',
+      },
+      {
+        name: 'Object / Face Detection & Classification / Recognition',
+      },
+      {
+        name: 'Naive Bayes, KNN, Decision Trees, DL / CNN, etc.',
+      },
+    ],
+  },
+  {
+    name: 'Package management',
+    skills: [
+      {
+        name: 'npm, yarn (Node)',
+      },
+      {
+        name: 'pip, poetry (Python)',
+      },
+      {
+        name: 'choco, apt, brew (OS)',
       },
     ],
   },
@@ -179,10 +207,13 @@ export const skills: SkillGroup[] = [
     name: 'Others',
     skills: [
       {
-        name: 'C/C++',
+        name: 'Algorithms and Data Structures (C/C++)',
       },
       {
-        name: 'Algorithms and Data Structures',
+        name: 'Docker / Docker compose',
+      },
+      {
+        name: 'Github Actions (eg. deployment automation)',
       },
     ],
   },
