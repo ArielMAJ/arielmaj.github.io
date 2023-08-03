@@ -296,19 +296,43 @@ export const education: TimelineItem[] = [
     date: '2021 - 2023',
     location: 'Federal University of Bahia (UFBA)',
     title: "Master's in Computer Science",
-    content: <p>TBA.</p>,
+    content: (
+      <p>
+        This is where I delved deeper into the world of programming. I engaged in a variety of Machine Learning projects
+        and publications, covering diverse topics such as classification, <strong>object detection, recognition</strong>
+        , and beyond. Additionally, during my free time, I dedicated myself to studying and enrolling in various courses
+        across multiple domains.
+      </p>
+    ),
   },
   {
     date: '2016 - 2020',
     location: 'Salvador University (UNIFACS)',
     title: "Bachelor's in Electrical Engineering",
-    content: <p>TBA.</p>,
+    content: (
+      <p>
+        This was where I started my programming journey. I learned a little bit of <strong>C and Portugol</strong> in
+        the first and second semester, then a little bit of <strong>MATLAB, robotics, and microcontrollers</strong>. I
+        also learned about electronics, power systems, and more. At some point in the middle of the course, I started
+        learning <strong>Python</strong> and doing little projects with it: from web scraping to desktop applications,
+        and even Machine Learning. In my last two semesters I worked on my final project, which was a{' '}
+        <strong>Machine Learning</strong> project that used a custom dataset of images of panoramic radiographies of the
+        teeth of patients, and used a <strong>Convolutional Neural Network</strong> to classify them. That's when I
+        realized what I really wanted was to work with software development.
+      </p>
+    ),
   },
   {
     date: '2013 - 2015',
     location: 'CSAJ',
     title: 'High School',
-    content: <p>TBA.</p>,
+    content: (
+      <p>
+        Just a simple high school. I played a lot of guitar and even pondered becoming a guitarrist at some point haha.
+        Back then the only thing I was sure was that I liked maths and that I wanted to study something I found
+        challenging.
+      </p>
+    ),
   },
 ];
 
@@ -317,13 +341,23 @@ export const experience: TimelineItem[] = [
     date: '2023 - Present',
     location: 'Solfácil - São Paulo, Brazil (Remote)',
     title: 'Software Engineer',
-    content: <p>TBA</p>,
+    content: (
+      <p>
+        Back-end microservices development in Python with Flask and FastAPI. Front-end development with Jinja2 and Vue.
+      </p>
+    ),
   },
   {
     date: '2021 - 2023',
     location: 'Federal University of Bahia (UFBA) - Bahia, Brazil',
     title: "Full-time (paid scholarship) Master's Student/Researcher",
-    content: <p>TBA</p>,
+    content: (
+      <p>
+        Projects and publications in <strong>Machine Learning</strong>, spanning classification,{' '}
+        <strong>object detection, recognition</strong>, and more. Teaching assistant in{' '}
+        <strong>Data Structures and Algorithms</strong>.
+      </p>
+    ),
   },
 ];
 
