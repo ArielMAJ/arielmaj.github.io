@@ -21,10 +21,10 @@ import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+// import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+// import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+// import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+// import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.png';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -224,71 +224,72 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'TBA.',
-    url: '',
+    title: 'test.me',
+    description: 'A command line tool for testing code. Your local auto-grading tool.',
+    url: 'https://github.com/ArielMAJ/test.me',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'TBA.',
-    url: '',
+    title: 'Python API Challenge',
+    description: 'A Python API challange done with Flask + SQLAlchemy (SQLite3) + SWAGGER and a React front-end.',
+    url: 'https://github.com/ArielMAJ/Python_API_Challenge',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'TBA.',
-    url: '',
+    title: 'Company Landing Page',
+    description: "A company's landing page. A static website built with HTML, CSS, JS and Bootstrap.",
+    url: 'https://github.com/ArielMAJ/GES_website',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'TBA.',
-    url: '',
+    title: 'screengrab',
+    description:
+      'A tool to facilitate grabbing an user-defined area of the screen repeatedly and save those images as PNGs/pdf.',
+    url: 'https://github.com/Leah9/screengrab',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'TBA.',
-    url: '',
+    title: 'CoGES',
+    description: 'A desktop Python app built with tkinter and SQLite3 to facilitate keeping track of a company\'s income and expenses.',
+    url: 'https://github.com/ArielMAJ/CoGES',
     image: porfolioImage5,
   },
   {
-    title: 'Project title 6',
-    description: 'TBA.',
-    url: '',
+    title: 'VocabiPy',
+    description: 'A desktop app made with CustomTkinter, a Dictionary API and Google Translate API.',
+    url: 'https://github.com/TheFallen-Cat/VocabiPy',
     image: porfolioImage6,
   },
   {
-    title: 'Project title 7',
-    description: 'TBA.',
-    url: '',
+    title: 'Waifu2x',
+    description: 'An AI image-UPSCALING python library.',
+    url: 'https://github.com/FHPythonUtils/Waifu2x',
     image: porfolioImage7,
   },
-  {
-    title: 'Project title 8',
-    description: 'TBA.',
-    url: '',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'TBA.',
-    url: '',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'TBA.',
-    url: '',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'TBA.',
-    url: '',
-    image: porfolioImage11,
-  },
+  // {
+  //   title: 'Project title 8',
+  //   description: 'TBA.',
+  //   url: '',
+  //   image: porfolioImage8,
+  // },
+  // {
+  //   title: 'Project title 9',
+  //   description: 'TBA.',
+  //   url: '',
+  //   image: porfolioImage9,
+  // },
+  // {
+  //   title: 'Project title 10',
+  //   description: 'TBA.',
+  //   url: '',
+  //   image: porfolioImage10,
+  // },
+  // {
+  //   title: 'Project title 11',
+  //   description: 'TBA.',
+  //   url: '',
+  //   image: porfolioImage11,
+  // },
 ];
 
 export const education: TimelineItem[] = [
