@@ -80,7 +80,7 @@ export const heroData: Hero = {
         helping build a modern, scalable, and secure platform for financing solar energy equipment.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me studying{' '}
+        In my free time, you can catch me studying{' '}
         <strong className="text-stone-100">online Coursera courses</strong>, plucking my{' '}
         <strong className="text-stone-100">guitar</strong>, or exploring beautiful{' '}
         <strong className="text-stone-100">tourist spots</strong> where I live.
