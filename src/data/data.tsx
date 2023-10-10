@@ -316,10 +316,11 @@ export const education: TimelineItem[] = [
         the first and second semester, then a little bit of <strong>MATLAB, robotics, and microcontrollers</strong>. I
         also learned about electronics, power systems, and more. At some point in the middle of the course, I started
         learning <strong>Python</strong> and doing little projects with it: from web scraping to desktop applications,
-        and even Machine Learning. In my last two semesters I worked on my final project, which was a{' '}
-        <strong>Machine Learning</strong> project that used a custom dataset of images of panoramic radiographies of the
-        teeth of patients, and used a <strong>Convolutional Neural Network</strong> to classify them. That's when I
-        realized what I really wanted was to work with software development.
+        and even Machine Learning. During my final two semesters I worked on my Bachelor's Degree Final Project:
+        I developed a <strong>Machine Learning</strong> project using a custom dataset of panoramic dental 
+        radiographies. I worked on this project from data collection to training and testing a{' '}
+        <strong>Convolutional Neural Network</strong> for classification, from zero. That's when I realized my true
+        passion for software development.
       </p>
     ),
   },
