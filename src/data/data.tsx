@@ -109,8 +109,6 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `I love challenges, learning new things and working in team projects. I'm always looking for opportunities to grow and improve my skills and network!`,
   aboutItems: [
-    {label: 'Location', text: 'Salvador, Bahia, Brazil', Icon: MapIcon},
-    {label: 'Age', text: '25', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Brazilian', Icon: FlagIcon},
     {label: 'Interests', text: 'Jiu Jitsu, Guitar, Learning new skills', Icon: SparklesIcon},
     {label: 'Study', text: 'Federal University of Bahia (UFBA)', Icon: AcademicCapIcon},
