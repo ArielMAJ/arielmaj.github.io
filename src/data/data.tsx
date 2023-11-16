@@ -19,7 +19,7 @@ import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-// import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 // import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 // import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 // import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
@@ -78,9 +78,8 @@ export const heroData: Hero = {
         helping build a modern, scalable, and secure platform for financing solar energy equipment.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time, you can catch me studying{' '}
-        <strong className="text-stone-100">online Coursera courses</strong>, plucking my{' '}
-        <strong className="text-stone-100">guitar</strong>, or exploring beautiful{' '}
+        In my free time, you can catch me studying <strong className="text-stone-100">online Coursera courses</strong>,
+        plucking my <strong className="text-stone-100">guitar</strong>, or exploring beautiful{' '}
         <strong className="text-stone-100">tourist spots</strong> where I live.
       </p>
     </>
@@ -220,6 +219,12 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
+    title: 'IBM+Mastertech Program Final Project',
+    description: '[Match-IBM] Final Project 06: Financial Goal Calculator with Monthly Savings.',
+    url: 'https://github.com/ArielMAJ/match-ibm-final-project',
+    image: porfolioImage8,
+  },
+  {
     title: 'test.me',
     description: 'A command line tool for testing code. Your local auto-grading tool.',
     url: 'https://github.com/ArielMAJ/test.me',
@@ -246,7 +251,8 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'CoGES',
-    description: 'A desktop Python app built with tkinter and SQLite3 to facilitate keeping track of a company\'s income and expenses.',
+    description:
+      "A desktop Python app built with tkinter and SQLite3 to facilitate keeping track of a company's income and expenses.",
     url: 'https://github.com/ArielMAJ/CoGES',
     image: porfolioImage5,
   },
@@ -262,12 +268,6 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://github.com/FHPythonUtils/Waifu2x',
     image: porfolioImage7,
   },
-  // {
-  //   title: 'Project title 8',
-  //   description: 'TBA.',
-  //   url: '',
-  //   image: porfolioImage8,
-  // },
   // {
   //   title: 'Project title 9',
   //   description: 'TBA.',
@@ -312,9 +312,9 @@ export const education: TimelineItem[] = [
         the first and second semester, then a little bit of <strong>MATLAB, robotics, and microcontrollers</strong>. I
         also learned about electronics, power systems, and more. At some point in the middle of the course, I started
         learning <strong>Python</strong> and doing little projects with it: from web scraping to desktop applications,
-        and even Machine Learning. During my final two semesters I worked on my Bachelor's Degree Final Project:
-        I developed a <strong>Machine Learning</strong> project using a custom dataset of panoramic dental 
-        radiographies. I worked on this project from data collection to training and testing a{' '}
+        and even Machine Learning. During my final two semesters I worked on my Bachelor's Degree Final Project: I
+        developed a <strong>Machine Learning</strong> project using a custom dataset of panoramic dental radiographies.
+        I worked on this project from data collection to training and testing a{' '}
         <strong>Convolutional Neural Network</strong> for classification, from zero. That's when I realized my true
         passion for software development.
       </p>
