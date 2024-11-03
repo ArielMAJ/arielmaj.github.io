@@ -400,8 +400,8 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Instagram,
-      text: '@ariel_menezes_aj',
-      href: 'https://www.instagram.com/ariel_menezes_aj/',
+      text: '@ariel.menezes.aj',
+      href: 'https://www.instagram.com/ariel.menezes.aj/',
     },
     {
       type: ContactType.Github,
@@ -417,5 +417,5 @@ export const contact: ContactSection = {
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/ArielMAJ'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/arielalmeida/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/ariel_almeida_jr/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/ariel.menezes.aj/'},
 ];
