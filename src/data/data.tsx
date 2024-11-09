@@ -290,7 +290,18 @@ export const portfolioItems: PortfolioItem[] = [
 
 export const education: TimelineItem[] = [
   {
-    date: '2021 - 2023',
+    date: '2024 - 2028',
+    location: 'Federal University of Bahia (UFBA)',
+    title: "Ph.D. in Computer Science",
+    content: (
+      <p>
+        TL;DR: research is fun; federated learning, edge computing and privacy in our algorithms sounds like interesting
+        and important topics; so this is the next step in my long term personal development plan.
+      </p>
+    ),
+  },
+  {
+    date: '2021 - 2024',
     location: 'Federal University of Bahia (UFBA)',
     title: "Master's in Computer Science",
     content: (
@@ -366,8 +377,8 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Test.',
+      name: 'TO-ADD',
+      text: 'TO-ADD',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
   ],
@@ -389,8 +400,8 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Instagram,
-      text: '@ariel_almeida_jr',
-      href: 'https://www.instagram.com/ariel_almeida_jr/',
+      text: '@ariel.menezes.aj',
+      href: 'https://www.instagram.com/ariel.menezes.aj/',
     },
     {
       type: ContactType.Github,
@@ -406,5 +417,5 @@ export const contact: ContactSection = {
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/ArielMAJ'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/arielalmeida/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/ariel_almeida_jr/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/ariel.menezes.aj/'},
 ];
