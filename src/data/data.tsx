@@ -3,8 +3,6 @@ import {AcademicCapIcon, BuildingOffice2Icon, FlagIcon, SparklesIcon} from '@her
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-// import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-// import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImageFinancesManager from '../images/portfolio/finances-manager.png';
 import porfolioImageGitHubVisualization from '../images/portfolio/github-visualization.png';
@@ -250,19 +248,7 @@ export const education: TimelineItem[] = [
         passion for software development.
       </p>
     ),
-  },
-  {
-    date: '2013 - 2015',
-    location: 'CSAJ',
-    title: 'High School',
-    content: (
-      <p>
-        Just a simple high school. I played a lot of guitar and even pondered becoming a guitarrist at some point haha.
-        Back then the only thing I was sure was that I liked maths and that I wanted to study something I found
-        challenging.
-      </p>
-    ),
-  },
+  }
 ];
 
 export const experience: TimelineItem[] = [
