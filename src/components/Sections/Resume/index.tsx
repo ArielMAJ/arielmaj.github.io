@@ -21,13 +21,7 @@ const Resume: FC = memo(() => {
           ))}
         </ResumeSection>
         <ResumeSection title="Skills">
-          <p className="pb-8">
-            I've studied and worked with many different technologies throughout the years. I have a few{' '}
-            <b>desktop projects during my bachelor's</b>, I've worked a lot with <b>Machine Learning in my master's</b>{' '}
-            and I've been working with <b>web development in my current job</b>. I also often work on{' '}
-            <b>personal projects</b> in my free time in which I have applied each and every one of the technologies
-            listed below.
-          </p>
+          <p className="pb-8">{/* TODO: Add Skill section introduction */}</p>
           <div className="center grid grid-cols-1 gap-6 md:grid-cols-2">
             {skills.map((skillgroup, index) => (
               <SkillGroup key={`${skillgroup.name}-${index}`} skillGroup={skillgroup} />

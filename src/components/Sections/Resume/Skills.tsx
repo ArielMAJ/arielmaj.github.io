@@ -13,7 +13,6 @@ export const SkillGroup: FC<PropsWithChildren<{skillGroup: SkillGroupType}>> = m
       </div>
 
       <div className="ReactFlipCard ReactFlipCard__Back center card flex flex-grow flex-col gap-y-2">
-
         {skills.map((skill, index) => (
           <Skill key={`${skill.name}-${index}`} skill={skill} />
         ))}
@@ -53,7 +52,9 @@ export const Skill: FC<{skill: SkillType}> = memo(({skill}) => {
 
   return (
     <div className="flex flex-col">
-      <span className="ml-2 text-sm font-medium"><p>{name}</p></span>
+      <span className="ml-2 text-sm font-medium">
+        <p>{name}</p>
+      </span>
       {/* <div className="flex h-5 w-full justify-center overflow-hidden rounded-full bg-neutral-300"> */}
       {/* <div
           className="flex h-full justify-center rounded-full bg-orange-400"
