@@ -1,28 +1,11 @@
-import {
-  AcademicCapIcon,
-  ArrowDownTrayIcon,
-  BuildingOffice2Icon,
-  FlagIcon,
-  SparklesIcon,
-} from '@heroicons/react/24/outline';
+import {AcademicCapIcon, BuildingOffice2Icon, FlagIcon, SparklesIcon} from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-// import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-// import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-// import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-// import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-// import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import porfolioImageFinancesManager from '../images/portfolio/finances-manager.png';
+import porfolioImageGitHubVisualization from '../images/portfolio/github-visualization.png';
 import profilepic from '../images/profilepic.png';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -67,30 +50,18 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Ariel Almeida.`,
+  name: `I'm Ariel Menezes.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working at{' '}
-        <strong className="text-stone-100">
-          <a href="https://landing.solfacil.com.br/">Solfácil</a>
-        </strong>{' '}
-        helping build a modern, scalable, and secure platform for financing solar energy equipment.
-      </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time, you can catch me studying <strong className="text-stone-100">online Coursera courses</strong>,
-        plucking my <strong className="text-stone-100">guitar</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">tourist spots</strong> where I live.
+        I'm a <strong className="text-stone-100">Full Stack Software Engineer</strong> at Solfácil, the first solar fintech in
+        Latin America and the largest ecosystem of solar solutions in Brazil, where I specialize in designing and
+        building scalable solutions that drive innovation and efficiency. With a strong foundation in full stack web
+        engineering, I leverage modern technologies to create robust applications, APIs and platform integrations.{' '}
       </p>
     </>
   ),
   actions: [
-    {
-      href: '/assets/resume.pdf',
-      text: 'Resume',
-      primary: true,
-      Icon: ArrowDownTrayIcon,
-    },
     {
       href: `#${SectionId.Contact}`,
       text: 'Contact',
@@ -107,7 +78,7 @@ export const aboutData: About = {
   description: `I love challenges, learning new things and working in team projects. I'm always looking for opportunities to grow and improve my skills and network!`,
   aboutItems: [
     {label: 'Nationality', text: 'Brazilian', Icon: FlagIcon},
-    {label: 'Interests', text: 'Jiu Jitsu, Guitar, Learning new skills', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Web Engineering, A.I., building impactful software solutions.', Icon: SparklesIcon},
     {label: 'Study', text: 'Federal University of Bahia (UFBA)', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Solfácil', Icon: BuildingOffice2Icon},
   ],
@@ -137,6 +108,9 @@ export const skills: SkillGroup[] = [
       {
         name: 'Vue (JS/TS)',
       },
+      {
+        name: 'Angular',
+      },
     ],
   },
   {
@@ -149,21 +123,13 @@ export const skills: SkillGroup[] = [
         name: 'Python (FastAPI, Flask)',
       },
       {
-        name: 'SQL / NoSQL / Postgre / SQLite3',
+        name: 'Java (Springboot)',
+      },
+      {
+        name: 'SQL / NoSQL / PostgreSQL / MongoDB',
       },
       {
         name: 'Postman / Insomnia / Swagger',
-      },
-    ],
-  },
-  {
-    name: 'Desktop Development',
-    skills: [
-      {
-        name: 'Python (Customtkinter)',
-      },
-      {
-        name: 'C# (Windows Forms)',
       },
     ],
   },
@@ -188,13 +154,16 @@ export const skills: SkillGroup[] = [
     name: 'Package management',
     skills: [
       {
-        name: 'npm, yarn (Node)',
+        name: '[Node]: npm, yarn, pnpm, bun',
       },
       {
-        name: 'pip, poetry (Python)',
+        name: '[Python]: poetry',
       },
       {
-        name: 'choco, apt, brew (OS)',
+        name: '[Java]: Maven, Gradle',
+      },
+      {
+        name: '[OS]: choco, apt, brew',
       },
     ],
   },
@@ -210,6 +179,9 @@ export const skills: SkillGroup[] = [
       {
         name: 'Github Actions (eg. deployment automation)',
       },
+      {
+        name: 'CI/CD, Jenkins, ArgoCD, Rancher, etc',
+      },
     ],
   },
 ];
@@ -219,78 +191,35 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'IBM+Mastertech Program Final Project',
-    description: '[Match-IBM] Final Project 06: Financial Goal Calculator with Monthly Savings.',
-    url: 'https://github.com/ArielMAJ/match-ibm-final-project',
-    image: porfolioImage8,
-  },
-  {
-    title: 'test.me',
-    description: 'A command line tool for testing code. Your local auto-grading tool.',
-    url: 'https://github.com/ArielMAJ/test.me',
-    image: porfolioImage1,
-  },
-  {
-    title: 'Python API Challenge',
-    description: 'A Python API challange done with Flask + SQLAlchemy (SQLite3) + SWAGGER and a React front-end.',
-    url: 'https://github.com/ArielMAJ/Python_API_Challenge',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Company Landing Page',
-    description: "A company's landing page. A static website built with HTML, CSS, JS and Bootstrap.",
-    url: 'https://github.com/ArielMAJ/GES_website',
-    image: porfolioImage3,
-  },
-  {
-    title: 'screengrab',
+    title: 'Finances Manager',
     description:
-      'A tool to facilitate grabbing an user-defined area of the screen repeatedly and save those images as PNGs/pdf.',
-    url: 'https://github.com/Leah9/screengrab',
-    image: porfolioImage4,
+      'A finance manager web app to help you keep track of your expenses. Built with Angular + Java (Springboot) + PostgreSQL.',
+    url: 'https://github.com/ArielMAJ/finances-frontend',
+    image: porfolioImageFinancesManager,
   },
   {
-    title: 'CoGES',
+    title: 'GitHub User Data Visualization',
     description:
-      "A desktop Python app built with tkinter and SQLite3 to facilitate keeping track of a company's income and expenses.",
-    url: 'https://github.com/ArielMAJ/CoGES',
-    image: porfolioImage5,
+      'Search and see information about GitHub accounts, such as "what\'s the rate of template repositories does a given person have?". Built with Vue (TS) and FastAPI.',
+    url: 'https://github.com/ArielMAJ/github-user-data-visualization',
+    image: porfolioImageGitHubVisualization,
   },
-  {
-    title: 'VocabiPy',
-    description: 'A desktop app made with CustomTkinter, a Dictionary API and Google Translate API.',
-    url: 'https://github.com/TheFallen-Cat/VocabiPy',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Waifu2x',
-    description: 'An AI image-UPSCALING python library.',
-    url: 'https://github.com/FHPythonUtils/Waifu2x',
-    image: porfolioImage7,
-  },
-  // {
-  //   title: 'Project title 9',
-  //   description: 'TBA.',
-  //   url: '',
-  //   image: porfolioImage9,
-  // },
-  // {
-  //   title: 'Project title 10',
-  //   description: 'TBA.',
-  //   url: '',
-  //   image: porfolioImage10,
-  // },
-  // {
-  //   title: 'Project title 11',
-  //   description: 'TBA.',
-  //   url: '',
-  //   image: porfolioImage11,
-  // },
 ];
 
 export const education: TimelineItem[] = [
   {
-    date: '2021 - 2023',
+    date: '2024 - 2028',
+    location: 'Federal University of Bahia (UFBA)',
+    title: 'Ph.D. in Computer Science',
+    content: (
+      <p>
+        TL;DR: research is fun; federated learning, edge computing and privacy in our algorithms sounds like interesting
+        and important topics; so this is the next step in my long term personal development plan.
+      </p>
+    ),
+  },
+  {
+    date: '2021 - 2024',
     location: 'Federal University of Bahia (UFBA)',
     title: "Master's in Computer Science",
     content: (
@@ -319,19 +248,7 @@ export const education: TimelineItem[] = [
         passion for software development.
       </p>
     ),
-  },
-  {
-    date: '2013 - 2015',
-    location: 'CSAJ',
-    title: 'High School',
-    content: (
-      <p>
-        Just a simple high school. I played a lot of guitar and even pondered becoming a guitarrist at some point haha.
-        Back then the only thing I was sure was that I liked maths and that I wanted to study something I found
-        challenging.
-      </p>
-    ),
-  },
+  }
 ];
 
 export const experience: TimelineItem[] = [
@@ -340,9 +257,30 @@ export const experience: TimelineItem[] = [
     location: 'Solfácil - São Paulo, Brazil (Remote)',
     title: 'Software Engineer',
     content: (
-      <p>
-        Back-end microservices development in Python with Flask and FastAPI. Front-end development with Jinja2 and Vue.
-      </p>
+      <div>
+        As a Software Engineer at Solfácil, the first solar fintech in Latin America and the largest ecosystem of solar
+        solutions in Brazil, I focus on building impactful, scalable solutions that enhance efficiency and drive
+        innovation. I’m passionate about developing automation tools that streamline complex processes, often
+        integrating AI-driven approaches to boost productivity. With a strong focus on collaboration and
+        problem-solving, I thrive in Agile environments, where I work closely with cross-functional teams to deliver
+        high-quality results.
+        <br />
+        <br />
+        <p>Technologies I've work with include: </p>
+        <br />
+        <b>Web Engineering (Back-end)</b>
+        <p>
+          - <strong>Microservices architecture</strong> for scalable systems; <br /> - Diverse{' '}
+          <strong>Web Frameworks</strong>: Python (FastAPI, Flask), Elixir, Node.js;
+          <br />- <strong>Database design</strong>: PostgreSQL; <br />- Docker, Kafka, AWS, ArgoCD, Rancher, etc;
+        </p>
+        <br />
+        <b>Web Engineering (Front-end)</b>
+        <p>
+          - Vue.js (TypeScript) for <strong>dynamic and interactive user interfaces</strong>;
+          <br />- Expertise in designing responsive, high-performance web applications;
+        </p>
+      </div>
     ),
   },
   {
@@ -365,11 +303,11 @@ export const experience: TimelineItem[] = [
 export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
-    {
-      name: 'John Doe',
-      text: 'Test.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
-    },
+    // {
+    //   name: '',
+    //   text: '',
+    //   image: '',
+    // },
   ],
 };
 
@@ -380,7 +318,7 @@ export const testimonial: TestimonialSection = {
 export const contact: ContactSection = {
   headerText: 'Get in touch!',
   description:
-    'If you have any questions or would like to work together on something interesting, feel free to drop me a line.',
+    'If you have any questions or would like to work together on something interesting, feel free to send me a message.',
   items: [
     {
       type: ContactType.Email,
@@ -389,12 +327,12 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Instagram,
-      text: '@ariel_almeida_jr',
-      href: 'https://www.instagram.com/ariel_almeida_jr/',
+      text: '@ariel.menezes.aj',
+      href: 'https://www.instagram.com/ariel.menezes.aj/',
     },
     {
       type: ContactType.Github,
-      text: 'Ariel Almeida',
+      text: 'Ariel Menezes',
       href: 'https://github.com/ArielMAJ',
     },
   ],
@@ -406,5 +344,5 @@ export const contact: ContactSection = {
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/ArielMAJ'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/arielalmeida/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/ariel_almeida_jr/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/ariel.menezes.aj/'},
 ];
