@@ -54,7 +54,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a <strong className="text-stone-100">Full Software Engineer</strong> at Solfácil, the first solar fintech in
+        I'm a <strong className="text-stone-100">Full Stack Software Engineer</strong> at Solfácil, the first solar fintech in
         Latin America and the largest ecosystem of solar solutions in Brazil, where I specialize in designing and
         building scalable solutions that drive innovation and efficiency. With a strong foundation in full stack web
         engineering, I leverage modern technologies to create robust applications, APIs and platform integrations.{' '}
