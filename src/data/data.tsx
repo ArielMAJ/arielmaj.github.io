@@ -25,8 +25,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: "Ariel's Portfolio",
-  description: 'Learn more about my skills, experience, and projects.',
+  title: "Ariel Menezes",
+  description: 'Learn more about my previous experiences, academic background, skills, and projects.',
 };
 
 /**
@@ -81,7 +81,7 @@ export const aboutData: About = {
     {label: 'Nationality', text: 'Brazilian', Icon: FlagIcon},
     {label: 'Interests', text: 'Web Engineering, A.I., building impactful software solutions.', Icon: SparklesIcon},
     {label: 'Study', text: 'Federal University of Bahia (UFBA)', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Solfácil', Icon: BuildingOffice2Icon},
+    {label: 'Employment', text: 'IBM', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -118,13 +118,13 @@ export const skills: SkillGroup[] = [
     name: 'Backend Development',
     skills: [
       {
+        name: 'Java (Springboot)',
+      },
+      {
         name: 'Node (JS/TS)',
       },
       {
         name: 'Python (FastAPI, Flask)',
-      },
-      {
-        name: 'Java (Springboot)',
       },
       {
         name: 'SQL / NoSQL / PostgreSQL / MongoDB',
@@ -254,7 +254,18 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: '2023 - Present',
+    date: '2025 - Present',
+    location: 'IBM - São Paulo, Brazil (Remote)',
+    title: "Software Engineer",
+    content: (
+      <p>
+        As a Software Engineer at IBM, I specialize in developing and maintaining enterprise-grade applications using
+        Java, Spring Boot, Angular, and Node.js. My role involves creating scalable and efficient solutions that meet
+        complex business needs.
+      </p>
+    ),
+  {
+    date: '2023 - 2025',
     location: 'Solfácil - São Paulo, Brazil (Remote)',
     title: 'Software Engineer',
     content: (
@@ -344,6 +355,6 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/ArielMAJ'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/arielalmeida/'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/ariel-menezes/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/ariel.menezes.aj/'},
 ];
