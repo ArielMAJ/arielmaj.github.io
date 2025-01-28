@@ -264,6 +264,7 @@ export const experience: TimelineItem[] = [
         complex business needs.
       </p>
     ),
+  },
   {
     date: '2023 - 2025',
     location: 'Solfácil - São Paulo, Brazil (Remote)',
