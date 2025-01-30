@@ -279,7 +279,7 @@ export const experience: TimelineItem[] = [
         high-quality results.
         <br />
         <br />
-        <p>Technologies I've work with include: </p>
+        <p>Technologies I've worked with include: </p>
         <br />
         <b>Web Engineering (Back-end)</b>
         <p>
