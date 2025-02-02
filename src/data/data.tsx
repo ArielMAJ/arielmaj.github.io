@@ -164,7 +164,7 @@ export const skills: SkillGroup[] = [
         name: '[Java]: Maven, Gradle',
       },
       {
-        name: '[OS]: choco, apt, brew',
+        name: '[OS]: brew, apt, choco',
       },
     ],
   },
@@ -175,7 +175,7 @@ export const skills: SkillGroup[] = [
         name: 'Algorithms and Data Structures (C/C++)',
       },
       {
-        name: 'Docker / Docker compose',
+        name: 'Docker / Podman & compose',
       },
       {
         name: 'Github Actions (eg. deployment automation)',
@@ -209,7 +209,7 @@ export const portfolioItems: PortfolioItem[] = [
 
 export const education: TimelineItem[] = [
   {
-    date: '2024 - 2028',
+    date: '2024 - 2027',
     location: 'Federal University of Bahia (UFBA)',
     title: 'Ph.D. in Computer Science',
     content: (
@@ -272,7 +272,7 @@ export const experience: TimelineItem[] = [
     content: (
       <div>
         As a Software Engineer at Solfácil, the first solar fintech in Latin America and the largest ecosystem of solar
-        solutions in Brazil, I focus on building impactful, scalable solutions that enhance efficiency and drive
+        solutions in Brazil, I focused on building impactful, scalable solutions that enhance efficiency and drive
         innovation. I’m passionate about developing automation tools that streamline complex processes, often
         integrating AI-driven approaches to boost productivity. With a strong focus on collaboration and
         problem-solving, I thrive in Agile environments, where I work closely with cross-functional teams to deliver
