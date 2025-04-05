@@ -25,7 +25,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: "Ariel Menezes",
+  title: 'Ariel Menezes',
   description: 'Learn more about my previous experiences, academic background, skills, and projects.',
 };
 
@@ -54,10 +54,10 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a <strong className="text-stone-100">Full Stack Software Engineer</strong> at IBM, where I specialize
-        in developing and maintaining enterprise-grade applications using Java, Spring Boot, Angular, and Node.js.
-        My role involves creating scalable and efficient solutions that meet complex business needs. I am passionate
-        about leveraging modern technologies and Agile practices to deliver high-quality software while fostering
+        I'm a <strong className="text-stone-100">Full Stack Software Engineer</strong> at IBM, where I specialize in
+        developing and maintaining enterprise-grade applications using Java, Spring Boot, React, and Node.js. My role
+        involves creating scalable and efficient solutions that meet complex business needs. I am passionate about
+        leveraging modern technologies and Agile practices to deliver high-quality software while fostering
         collaboration in cross-functional teams.{' '}
       </p>
     </>
@@ -214,8 +214,9 @@ export const education: TimelineItem[] = [
     title: 'Ph.D. in Computer Science',
     content: (
       <p>
-        TL;DR: research is fun; federated learning, edge computing and privacy in our algorithms sounds like interesting
-        and important topics; so this is the next step in my long term personal development plan.
+        I find research to be an engaging and meaningful pursuit. Topics such as federated learning, edge computing, and
+        privacy in algorithm design align well with my interests and goals. I’m especially motivated by being able to
+        contribute to areas that intersect technical innovation with real-world impact.
       </p>
     ),
   },
@@ -225,10 +226,11 @@ export const education: TimelineItem[] = [
     title: "Master's in Computer Science",
     content: (
       <p>
-        This is where I delved deeper into the world of programming. I engaged in a variety of Machine Learning projects
-        and publications, covering diverse topics such as classification, <strong>object detection, recognition</strong>
-        , and beyond. Additionally, during my free time, I dedicated myself to studying and enrolling in various courses
-        across multiple domains.
+        During my master’s program, I deepened my knowledge of programming and became more involved in applied research.
+        I participated in a range of Machine Learning projects and publications, exploring areas such as{' '}
+        <strong>classification, object detection, and recognition</strong>. Beyond academic work, I consistently
+        invested time in self-study, enrolling in courses across different domains to broaden my understanding and skill
+        set.
       </p>
     ),
   },
@@ -238,25 +240,25 @@ export const education: TimelineItem[] = [
     title: "Bachelor's in Electrical Engineering",
     content: (
       <p>
-        This was where I started my programming journey. I learned a little bit of <strong>C and Portugol</strong> in
-        the first and second semester, then a little bit of <strong>MATLAB, robotics, and microcontrollers</strong>. I
-        also learned about electronics, power systems, and more. At some point in the middle of the course, I started
-        learning <strong>Python</strong> and doing little projects with it: from web scraping to desktop applications,
-        and even Machine Learning. During my final two semesters I worked on my Bachelor's Degree Final Project: I
-        developed a <strong>Machine Learning</strong> project using a custom dataset of panoramic dental radiographies.
-        I worked on this project from data collection to training and testing a{' '}
-        <strong>Convolutional Neural Network</strong> for classification, from zero. That's when I realized my true
-        passion for software development.
+        This was the starting point of my journey through Software Engineering. During the first semesters, I was
+        introduced to programming through C and Portugol, followed by exposure to MATLAB, robotics, microcontrollers,
+        electronics, and power systems. Midway through the course, I began learning Python and developed small projects
+        ranging from web scraping to desktop applications and early experiments with Machine Learning. In my final two
+        semesters, I dedicated myself to my Bachelor's Degree Final Project, which involved developing a{' '}
+        <strong>Machine Learning</strong> solution for classifying panoramic dental radiographs. I managed the entire
+        pipeline—from data collection and preprocessing to training and evaluating a{' '}
+        <strong>Convolutional Neural Network</strong> built from scratch. This experience solidified my interest in
+        software development and guided my path forward in the field.
       </p>
     ),
-  }
+  },
 ];
 
 export const experience: TimelineItem[] = [
   {
     date: '2025 - Present',
     location: 'IBM - São Paulo, Brazil (Remote)',
-    title: "Software Engineer",
+    title: 'MidLevel Software Engineer',
     content: (
       <p>
         As a Software Engineer at IBM, I specialize in developing and maintaining enterprise-grade applications using
